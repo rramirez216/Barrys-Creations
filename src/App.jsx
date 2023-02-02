@@ -1,5 +1,12 @@
+import GlobalStyles from './components/GlobalStyles'
+
 function App() {
-  return <div>hello world</div>
+  return (
+    <div>
+      <GlobalStyles />
+      {/* <img src='https://via.placeholder.com/250.png/ ' alt='placeholder' /> */}
+    </div>
+  )
 }
 
 export default App
