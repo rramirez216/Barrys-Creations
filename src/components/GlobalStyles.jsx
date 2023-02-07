@@ -4,16 +4,21 @@ const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
     box-sizing: border-box;
   }
-  html, body, #root {
+  html, body {
     height: 100%;
     
   }
 
   #root {
+    min-height: 100%;
+    
     ${'' /* additional stylying */}
     position: relative;
     background-color: hsl(193 71% 85%);
     display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 64px;
+    padding: 32px;
   }
   img, picture, video, canvas, svg {
     display: block;
