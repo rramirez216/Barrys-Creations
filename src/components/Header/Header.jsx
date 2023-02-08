@@ -16,10 +16,10 @@ const Wrapper = styled.header`
   display: flex;
   flex-flow: row nowrap;
   align-items: baseline;
-  background-color: hsl(0 0% 99%);
+  background-color: hsl(123 71% 85%);
   padding: 16px 0px 16px 32px;
-  /* border-top-left-radius: 32px 16px;
-  border-bottom-right-radius: 32px 16px; */
+  border-radius: 8px;
+
   box-shadow: 2px 4px 4px hsl(193 50% 50% / 0.333),
     4px 8px 8px hsl(193 50% 50% / 0.333), 6px 8px 8px hsl(193 50% 50% / 0.333);
 `
