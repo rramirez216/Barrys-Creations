@@ -10,6 +10,13 @@ import About from './Main/About/About'
 import TOS from './Main/TOS/TOS'
 
 function App() {
+  //   primary color - hsl(193 71% 85%)
+  // secondary color - hsl(141 71% 85%) or hsl(123 71% 85%)
+  // accent - {
+  //   hex: FFB56B
+  //   hsl(30 100% 74%)
+  // }
+
   return (
     <>
       <Header />
