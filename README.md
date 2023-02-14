@@ -1,2 +1,2 @@
 # Barrys-Creations
-An art portfolio for the digital artist Barry.
+A portfolio containing the work and information about the digital artist Barry.
